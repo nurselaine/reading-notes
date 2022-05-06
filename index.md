@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Code 201 Reading Notes
 
-You can use the [editor on GitHub](https://github.com/nurselaine/reading-notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nurselaine/reading-notes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+###### Table of Contents
+1. Reading Note **1**
+3. Reading Note **2**
+4. Reading Note **3**
+5. Reading Note **4**
+6. Reading Note **5**
+7. Reading Note **6**
+8. Reading Note **7**
+9. Reading Note **8**
+10. Reading Note **9**
+11. Reading Note **10**
+12. Reading Note **11**
+13. Reading Note **12**
+14. Reading Note **13**
+15. Reading Note **14**
+16. Reading Note **15**
