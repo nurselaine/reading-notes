@@ -47,3 +47,8 @@ From the Duckett JS book:
   - For loops: known amount of times needed to loop through script
   - while: unknown times needed to carry out script
   - do while: carry out script at least once
+
+  ## What Do I want to know more of?
+  - I want to learn more about boxes - I find organizing the layout of webpages takes me the longest, and I would like to one day more webpages that are attractive and unique to users
+  - I want to practice using elements and selectors with JS.
+  - It would be interesting to play around with CSS borders more to better space elements on my page - I want to find the fastest and best way to style and markup a webpage
