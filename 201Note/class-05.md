@@ -84,3 +84,16 @@ NOTE: The post has a TL;DR you might find handy.
 - I want to know how to position multiple pictures on top of each other and to organize in a way that is aesthetic on a webpage
 - I want to find my go to fonts that are simple and basic
 - I would like to learn how to pick the most suitable stock photos for web pages without taking so long to find the right one
+
+
+Class
+Functions and Arrays
+function equations(a, b){
+  let product = a*b;
+  let sum = a+b;
+    reutrn [product, sum]
+}
+
+let myProduct = equations(10,5)[0] // this will return product of parameters
+let mySum = equations(10,5)[1] // this willr eturn sum of parameters
+
