@@ -3,6 +3,7 @@
 
 ## Chapter 3: “Object Literals” (pp.100-105)
 <hr>
+
 - Constructing an Object, user new keyword
   - let hotel = new Object(); or let hotel = {[properties and methods]}
 - Object: groups together variables and functions that models something in the real world
@@ -14,6 +15,7 @@
 
 ## Chapter 5: “Document Object Model” (pp.183-242)
 <hr>
+
 - DOM tells browser how to create model of HTML AND how JS can interact with webpage content
 - DOM is separate set of rules
   - browser loads webpage & creates **model** of page in memory
@@ -25,7 +27,6 @@
 - API (Application Programming Interface): alternate term for DOM, 
   - interface: allows programs/scripts to interact with each other
   - DOM can ask browser about current page then tell browser to update what user sees
-<img src="dom-tree.png" alt="DOM Tree" style="float: left">
   - Attribute nodes in pink and Text notes in purple
 - How to use DOM Tree:
   1. Access the Elements (refer to page 188 for various element access commands)
