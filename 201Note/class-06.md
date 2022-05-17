@@ -1,4 +1,4 @@
-# Class 05 Reading Notes
+# Class 06 Reading Notes
 <hr>
 
 ## Chapter 3: “Object Literals” (pp.100-105)
