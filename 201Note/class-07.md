@@ -51,7 +51,3 @@
 - Math ObjectL properties and emthods for constants and functions
   - currently using Math.random
 - Date object : to specify time and date of object
-
-# Class 08 Reading
-## Learn CSS - Layout
-## Duckett HTML/CSS book: Ch. 15, “Layout” (again; repeat of Class 4 reading)

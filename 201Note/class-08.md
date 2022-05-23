@@ -1,0 +1,43 @@
+# Class 08 Reading
+## Learn CSS - Layout
+- Display property: determines if box is inline or block
+  - inline elements: Sit like letters in a sentence, cannot set width or height or padding
+  - block elements: create new lines for themselves
+  - flex: makes box a block level box and converts children to flex items too; used to guide browser how to behave responsively 
+    - flex-grow 
+    - flex-shrink
+    - flex-basis
+- flexboc and Grid 
+  - flexbox: for one-dimensional layouts (horizontal or vertical axis) - flex box will align element's children side by side and stretch them in block direction for uniform height
+    - children will not wrap when space runs short - resolve by:
+      - align-items
+      - justify-content
+      - flex-wrap
+- grid: similar to flexbox (display: grid) allows you to write layout rules and display layout styles like repeat() and minmax()
+  - repeat takes in two parameters, first is a number and second is a measurement
+  - gap: is used to place spaces inbetween grid boxes
+  - grid-row/column: are used to span one box to a specified number of boxes (1/4 or 1/3)
+- inline block: gives you box that flows inline with box level characteristics 
+- **floats**: used to help images wrap around text in an image; instructs element to float to specified direction (left, right, inherit)
+  - elements following float may have layout adjusted, to prevent : **clear float** using **clear: both** on element following floated element or **display: flowroot**
+- Columms in lists: Use colomn-count to split into specified number and add column gap for space inbetween
+  - column-width: instead of using column-count, will split list to defined widthed depending on vw
+- Positioning:
+  - sticky: 
+  - static: default
+  - relative: makes containing block of any child elements position absolute 
+  - absolute: breaks element out of normal flow to position without affecting surround elements
+## Duckett HTML/CSS book: Ch. 15, “Layout” (again; repeat of Class 4 reading)
+- relative positionL moves element from normal flow to either top, right, bottom, or left of normal placement - without affecting surrounding elements
+- box offset: tells browser where to place box for absoloute positioning 
+- z-index controls layers and which box appears on top ***(stacking content)***
+- Fixed positiong: absolute positioning that positions in relations to browser window
+- overflow property used with float if browser treats height as 0px
+- Screen sizes  
+  - fixed width layouts: do not change sizes with user increase/decrease of window size
+    - rule for body is set page at **width: 960px** , create a gap between main boxes on page, and navbar, footer, and deatures are to stretch to fit containing element
+  - liquid layouts: stretch and contract with user increase/decrease of window size (use percentages)
+    - set width of page to 90%  to leave gape between window and content
+    - control width of page sections or gaps may appear or else lines of text may become very long or spquashed
+    - if image is fixed width then it may overflow text with decrease in window size 
+  

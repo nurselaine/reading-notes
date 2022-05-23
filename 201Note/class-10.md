@@ -1,0 +1,21 @@
+## “Error Handling & Debugging”
+- execution contexts: 
+  - Global context: code in script but not in function
+  - Function context: code being run within a function
+  - Eval context
+- Stacking: JS reads top down, when script needs data from another function, stacking occurs: the new function piles on top of the preceding tasks
+- Errors: throws exception then interpreter stops and looks for exception-handling code
+  - Error handling code
+  - no handling code, interpreter scans through code until reaching global context
+  - creates error object and terminate the script
+- Error objects: assists in pointnig out mistakes 
+  - properties: names, message, fileNumber, and lineNumber
+  Types: 
+    - SyntaxError, syntax is incorrect
+    - ReferenceError, variable that is not declared/out of scope
+    - TypeError, value is unexpected data type
+    - logic error? no syntax error but code runs incorrectly (infinite loops)
+    - RangeError, number is outside of range
+    - URLError, incorrect use of URI functions
+    - EvalError, incorrect use of eval function
+- WorkFlow:
