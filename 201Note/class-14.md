@@ -10,6 +10,10 @@
 - What makes a good team isn't always a good leader rather than a harmonious group of people
   - Do not be afraid to share and be open with your team, keeping walls up can lead to a high stress environment and reduce productivity
   - work environments and teams should create a safe place for asking questions and sharing thoughts
+- NEVER say something is dumb
+  - You never know whether that "dumb" thing is going to turn into something realy cool
+  - I really enjoyed the 
+- **Tech attracts non-linear thinkers**
 
 ## Read this article on CSS Transforms
 - Transforms: element distorted on a 2/3 dimensional plane
@@ -60,6 +64,7 @@
 - animation fill mode: how element should be styled before/after animation runs
   - none, foward, backwards, both
   - may be affected by animation-direction/iteration-count properties
+
 
 ## 8 simple CSS3 transitions that will wow your users
 - swing is very impressive amount of work for a little wiggle wiggle
