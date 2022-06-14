@@ -38,7 +38,12 @@
 ## Review
 #### Pass data through Props
 #### Rendering elements
+- identify the root ()
 ### JSX
+  - syntax extension to JavaScript
+  - quotes are used for string values and curly braces for expressions
+  - JSX protects againts scripting attacks by converting everything to a string before rendering
+  - React.createElement: help sto write bug free code (used on babel) and to create elements via objects
 #### Components & Props
 
 ## Things I want to know more about
