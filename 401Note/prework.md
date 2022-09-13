@@ -1,5 +1,7 @@
 ## Pre-work readings 
 
+view article [here](https://ryanstutorials.net/linuxtutorial/filemanipulation.php#introduction)
+
 #### Linux Tutorial
 1. The Command Line: a text-based interface to the system that allows you to enter commands and presents feedback in text
   - enter a command like ls, mkdir etc etc
