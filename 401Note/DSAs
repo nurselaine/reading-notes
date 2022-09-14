@@ -1,0 +1,38 @@
+## Data Structures & Algorithms
+
+#### Videos
+1. **Recursion**: nested boxes analogy
+  - base case: if key in box is found then return key
+    - base case is needed to exit a recursive function & to prevent a infinit loop
+  - recursive case: if key is not found in box then call the method to look into the box again until the key is found (recursive case calls method over and over until basecase is met)
+2. **Data structures you MUST know**
+  - Five more important DS
+  - Data structure: a collection of data grouped together (compound data)
+      - Big O notation: a measurement of a data structure/algo complexity
+    1. LInked List: made up of nodes with a head/tail pointer
+      - add and delete new nodes
+    2. Arrays: continuous block of cells in a program's location - good at retrieving items **BUT** arrays may not be good at adding data 
+    3. Hash table: uses keys and values to hold data like an object (think of dictionary) - retrieves values using keys and returns memory location (two keys = same value, but each key is unique) - good for adding/deleting
+    4. Stack/Queue: stack LIFO like stack of dishes (.push() and .pop()) which is good for depth first search (DFS) whereas queue is FIFO like a line at the store (.enqueue() and .dequeue()) which is good for breadth first search BFS
+    5. Graphs & Trees: 
+      - graphs: made up of edges and nodes(entities). Edges are like pointers that can be directional or non-diretional as well as cyclic/acyclic. Edges may carry a value called a "weight"
+        - Directional acyclic graphs are just trees. Graphs can be represented as adjacent matrixes, lists, and sets. 
+      - tree: hierarchial structure with unidirectional data flow. 
+        - Binary Search Tree: ordered tree where each node can only have two children where the left child is < the parent and the right child is > than the parent
+          - BST can only have leaf nodes on the last and second to last depth of the tree
+          - BST are good for searching for finding data when using a balances tree
+        - Heaps: similar to trees with minimum and maximum order where min heaps prioritize the smallest node values in the root and increase in node value as the depth of the tree increases while max heaps are the opposite
+3. **Big O Notation**: describes the run-time of an algorithm
+  - time complexity increases with greater amounts of input (n)
+    - scales linearly with input size: How runtime scales with input value
+  - O(N): amount of time taken to run function is linearly related to input
+  - O(N^2): time taken to run function relates to input * input 
+  - constants: unrelated elements outside of input should be ignored
+    - O(N + 100) 100 is a constant which will be ignored O(N)
+    - Dropping constants provide a rough scale of the complexity 
+  - Multiple inputs: a and b in a nested loop is O(a * b)
+  - O(N^2) dominates O(N) so O(N + N^2) becomes O(N^2)
+  - Keep in mind this (is the relationship between input and time complexitiy linear, quadratic?)
+  - Drop non-dominant terms: terms that may increase as the input increases, but not as quickly so it won't affect the calculation time which is why n is non-dominant compared to n^2 and  O(N + N^2) becomes O(N^2)
+
+  [<img src="https://miro.medium.com/max/3600/1*FjwQ-4iKTlyyaMlU4HCBPA.png">](https://miro.medium.com/max/3600/1*FjwQ-4iKTlyyaMlU4HCBPA.png)
