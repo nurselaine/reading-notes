@@ -1,5 +1,10 @@
 ## Data Structures & Algorithms
 
+1. What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
+    - Consider what the data structure is best used for and what the problem is. For example, the use of a BST is good for searching using O(LogN) time whereas a queue would not be as good of an option since we can only access the beginning element of the queue to search for a specific element
+2. How can we ensure that we’ll avoid an infinite recursive call stack?
+    - when using recursive functions, always include a base case. This base case signals to stop calling the recursive case.
+
 #### Videos
 1. **Recursion**: nested boxes analogy
   - base case: if key in box is found then return key
@@ -36,3 +41,45 @@
   - Drop non-dominant terms: terms that may increase as the input increases, but not as quickly so it won't affect the calculation time which is why n is non-dominant compared to n^2 and  O(N + N^2) becomes O(N^2)
 
   [<img src="https://miro.medium.com/max/3600/1*FjwQ-4iKTlyyaMlU4HCBPA.png">](https://miro.medium.com/max/3600/1*FjwQ-4iKTlyyaMlU4HCBPA.png)
+
+  #### Readings
+  1. **8 Common Data Structures every programmer must know**
+    - Data structres allow data to be organized and stored in a way that allows compatible operations to be performed 
+    a. Arrays: holds items of the time type and is usually fixed in size
+      - 2d arrays: matrices
+      - Operations include traversal, searching, and updating values
+      - inserting and deleting requires creating a new array due to restraints of fixed sizes
+      - Arrays are the basis of lists, heaps, hash tables, vectors, and matrices
+      - Algorithms: sorting, insertion sort, quick sort, bubble sort, merge sort
+    b. Linked lists: sequential structure that contain nodes which are linked together (random access not possible)
+      - A node is made up of a key(data) and a next pointer which signals to the adjacent node. Linked list begin with a head and end with a tail node
+      - Types: singly, doubly (a forward and backward pointer is included in each node), and circular linked list (the prev pointer of the head points to the tail and the next pointer of the tail points to the head)
+      - Operations: Search, Insert, and Delete
+    c. Stacks: LIFO (stack of plates) use pop() and push() methods to add and delete
+      - Peek reveals element at top of stack. pop can only remove the top element while peek returns the top element without deleting it
+      - isEmpty and isFull are useful to not run into stack over/underflow errors
+      - Uses: function calls in recursive programming
+    d. Queues: FIFO (line at a store) where **enqueue** adds to the end of the line and **dequeue** removes from the front of the line
+      - Uses: manage threads in multithreading and implement priority queues
+    e. Hash Tables: stores values which have keys associated to them - effect lookup and efficient insertion & searching O(1)
+      - **Direct Addressing**: one to one mapping (a single entitiy is associated with a single instance of the other entity) - hash tables are used to avoid storing large objects
+      - **Hash Functions**: calculates index in hashtable using given key. The function then calculates the **hash value** of each of the keys to determine the index of where it should go in the hash table
+      - Hash tables may run into **collisions** where the hash value of two different keys are the same - to avoid this select a good hash function and use chaining & open addressing
+      [<img src="https://miro.medium.com/max/1050/1*xOmBfzMxLLldy1ll4w7esg.png">](https://miro.medium.com/max/1050/1*xOmBfzMxLLldy1ll4w7esg.png)
+      - Uses: O(1) search time table
+    f. trees: hierarchial strucutre that links nodes together
+      - BST: stores values in sorted order
+      - Uses: search applications with constantly changing data, wireless networking (treaps), JVM java virtal machine used to store java objects (heaps)
+    g. heaps: Parent node compared to their children's values 
+      - uses: heapsort algorithms, implement priority queues, queue functions with O(logN) time, and used to find largest/smallest value in arrays
+    h. graphs: made of verticies and edges
+      - directed: if all edges have a direction indicating a start and end vertex
+      - undirected graph: all edges have no direction and all vertexes can be start and end
+      - Uses: social media networks (users are vertexes and connections between users are edges), webpages and linked by search engines (page ranking), locations and routes (GPS)
+
+Cheat sheat for [Big O Notation](https://www.bigocheatsheet.com/)
+
+  2. **Why you should learn Big-0 and stop hacking your way through alogrithms**
+    - algorithms exists to make code run in a reasonable amount of time and space
+    - BST strucutre is due to improving search time and achieving logarithmic time
+    - Big-O helps prevent mistakes in interviews 
