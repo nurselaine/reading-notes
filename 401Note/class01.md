@@ -9,8 +9,12 @@
 3. What is Node used for?
   - Node is used to run JS in chrome browsers
   - Node is most commonly used to run JS on the server
+  - Node is used by JS developers to create server-side tools
     - it is used to pass async tasks to event loop 
     - Node is great for building real-time application (google docs because it uses real time editing and sharing)
 
 #### Things that I want to know more
 - What is the code that node compiler translates it to? What happens after the object code. Is it translated into an even lower level language?
+
+- What is middleware
+  - anything that touches req and res object is middleware
